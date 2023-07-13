@@ -86,13 +86,5 @@ public class heapSort {
         for(int i = 0; i < sortArr.length; i++){
             System.out.print(sortArr[i] + "\n");
         }
-
-        System.out.println();
-
-        int[] sort = {5, 8, 5, 14, 1, 9, 1, 3, 8, 1};
-        heapSort(sort);
-        for(int i = 0; i < sort.length; i++){
-            System.out.print(sort[i] + "\n");
-        }
     }
 }
